@@ -14,7 +14,7 @@ pipeline{
         stage('Deploy'){
             steps{
                 echo "deploy resume"
-                archieveArtifacts artifcats:"*.html","*.css","*.js"
+                
             }
         }
     }
